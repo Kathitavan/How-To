@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Requirements for Aadhaar Card</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark d-lg-none">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="font-size: 1.8rem; letter-spacing: 2px; text-shadow: 0 0 10px rgba(255, 64, 129, 0.8);"><span style="color: #ff4081; font-weight: bold;">DOC</span>PORTAL</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Homepage.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Index.html">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Index.html#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Index.html#port">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    
+    
+    <div class="sidebar d-none d-lg-block">
+        <a class="navbar-brand" href="#" style="font-size: 1.8rem; letter-spacing: 2px; text-shadow: 0 0 10px rgba(255, 64, 129, 0.8);"><span style="color: #ff4081; font-weight: bold;">DOC</span>PORTAL</a>
+        <nav class="nav flex-column">
+            <a class="nav-link active" href="Homepage.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                    <path d="M8.354 1.146a.5.5 0 0 1 .292.146l6.5 6.5a.5.5 0 0 1-.708.708L13 7.207V13.5a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 7 13.5v-3A1.5 1.5 0 0 1 8.5 9h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3A.5.5 0 0 0 13 13.5V7.207l-5-5V5.5a.5.5 0 0 1-1 0V1.854a.5.5 0 0 1 .146-.708z"/>
+                    <path d="M7 13.5v-3a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5V7.207l5 5V13.5A1.5 1.5 0 0 1 13.5 15H2.5A1.5 1.5 0 0 1 1 13.5V7.207l5 5V13.5A1.5 1.5 0 0 0 7.5 15h3A1.5 1.5 0 0 0 12 13.5v-6.293L8.354 1.146a.5.5 0 0 1-.708-.708L8 1l.354.354z"/>
+                </svg>
+                Home
+            </a>
+            <a class="nav-link" href="Index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-briefcase-fill" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h3V1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1h3a2 2 0 0 1 2 2v1H0V4zm6-1V1.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V3H6zm0 3h4V3H6v3z"/>
+                    <path d="M0 8.5v4a1.5 1.5 0 0 0 1.5 1.5h13a1.5 1.5 0 0 0 1.5-1.5v-4H0z"/>
+                </svg>
+                Services
+            </a>
+            <a class="nav-link" href="#port">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 7-4 7 3 7 4-1 1-1 1H3zm6-8a3 3 0 1 0-6 0 3 3 0 0 0 6 0z"/>
+                </svg>
+                Portfolio
+            </a>
+            <a class="nav-link" href="#contact">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.259L0 4.697zM6.761 8.83l-6.76 3.797A2 2 0 0 0 2 14h12a2 2 0 0 0 1.999-1.373l-6.76-3.797L8 9.586l-1.239-.756zM16 4.697l-5.803 3.259L16 11.801V4.697z"/>
+                </svg>
+                Contact
+            </a>
+        </nav>
+    </div>
+    
+    
+        <!-- Main content -->
+        <div class="main-content ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-4">
+                        <div class="home-page-main-head home-page-main-body">
+                            <h1>Welcome to DocPortal</h1><br>
+                            <h2>Your Ultimate Document Management Solution</h2>
+                            <p>From Aadhaar and PAN to Birth and Death Certificates, Access and Organize 17+ Essential Documents with Ease</p>
+                        </div>
+                    </div>
+                    <br>
+                            <!-- Aadhaar Card -->
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3 ">
+                            <div id="section1">
+                                <div class="card custom-card shadow-lg ">
+                                    <div class="row no-gutters">
+                                        <div class="col-6 col-sm-12 figure">
+                                            <img src="photos\Aadhaar_card.jpg" alt="Aadhaar" class="figure-img img-fluid rounded card-img-top h-100 w-100">
+                                        </div>
+                                        <div class="col-6 col-sm-12">
+                                            <div class="card-body text-center">
+                                                <h1 class="card-title">Aadhaar Card</h1>
+                                                <p class="card-text">Basic Requirements and how to apply</p>
+                                                <a href="Aadhar.html" class="btn custom-btn mt-3">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                                        class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                                        <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+        
+                        <!-- PAN Card -->
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
+                            <div class="card custom-card shadow-lg">
+                                <div class="row no-gutters">
+                                    <div class="col-6 col-sm-12 figure">
+                                        <img src="photos\pan.jpg" alt="PAN" class="figure-img img-fluid rounded card-img-top h-100 w-100">
+                                    </div>
+                                    <div class="col-6 col-sm-12">
+                                        <div class="card-body text-center">
+                                            <h1 class="card-title">PAN Card</h1>
+                                            <p class="card-text">Basic Requirements and how to apply</p>
+                                            <a href="Pan.html" class="btn custom-btn mt-3">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                                    class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <!-- Passport -->
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
+                            <div class="card custom-card shadow-lg">
+                                <div class="row no-gutters">
+                                    <div class="col-6 col-sm-12 figure">
+                                        <img src="photos\passport.jpg" alt="Passport" class="figure-img img-fluid rounded card-img-top h-100 w-100">
+                                    </div>
+                                    <div class="col-6 col-sm-12">
+                                        <div class="card-body text-center">
+                                            <h1 class="card-title">Passport</h1>
+                                            <p class="card-text">Basic Requirements and how to apply</p>
+                                            <a href="Passport.html" class="btn custom-btn mt-3">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                                    class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <!-- Voter ID Card -->
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
+                            <div class="card custom-card shadow-lg">
+                                <div class="row no-gutters">
+                                    <div class="col-6 col-sm-12 figure">
+                                        <img src="photos\voter-id-card.avif" alt="Voter ID" class="figure-img img-fluid rounded card-img-top h-100 w-100">
+                                    </div>
+                                    <div class="col-6 col-sm-12">
+                                        <div class="card-body text-center">
+                                            <h1 class="card-title">Voter ID</h1>
+                                            <p class="card-text">Basic Requirements and how to apply</p>
+                                            <a href="voterId.html" class="btn custom-btn mt-3">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                                    class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <!-- Driving License -->
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
+                            <div class="card custom-card shadow-lg">
+                                <div class="row no-gutters">
+                                    <div class="col-6 col-sm-12 figure">
+                                        <img src="photos\DR animation.jpeg" alt="Aadhaar" class="figure-img img-fluid rounded card-img-top h-100 w-100">
+                                    </div>
+                                    <div class="col-6 col-sm-12">
+                                        <div class="card-body text-center">
+                                            <h1 class="card-title">Driving License</h1>
+                                            <p class="card-text">Basic Requirements and how to apply</p>
+                                            <a href="DrivingLi.html" class="btn custom-btn mt-3">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                                    class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <!--Ration Card -->
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
+                            <div class="card custom-card shadow-lg">
+                                <div class="row no-gutters">
+                                    <div class="col-6 col-sm-12 figure">
+                                        <img src="photos\Smart-Ration.jpg" alt="PAN" class="figure-img img-fluid rounded card-img-top h-100 w-100">
+                                    </div>
+                                    <div class="col-6 col-sm-12">
+                                        <div class="card-body text-center">
+                                            <h1 class="card-title">Ration Card</h1>
+                                            <p class="card-text">Basic Requirements and how to apply</p>
+                                            <a href="Ration.html" class="btn custom-btn mt-3">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                                    class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <!-- Income Certificate -->
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
+                            <div class="card custom-card shadow-lg">
+                                <div class="row no-gutters">
+                                    <div class="col-6 col-sm-12 figure">
+                                        <img src="photos\income-certificate.jpg" alt="Passport" class="figure-img img-fluid rounded card-img-top h-100 w-100">
+                                    </div>
+                                    <div class="col-6 col-sm-12">
+                                        <div class="card-body text-center">
+                                            <h1 class="card-title">Income Certificate</h1>
+                                            <p class="card-text">Basic Requirements and how to apply</p>
+                                            <a href="income.html" class="btn custom-btn mt-3">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                                    class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <!-- Caste Certificate -->
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
+                            <div class="card custom-card shadow-lg">
+                                <div class="row no-gutters">
+                                    <div class="col-6 col-sm-12 figure">
+                                        <img src="photos\community-certificate.webp" alt="Voter ID" class="figure-img img-fluid rounded card-img-top h-100 w-100">
+                                    </div>
+                                    <div class="col-6 col-sm-12">
+                                        <div class="card-body text-center">
+                                            <h1 class="card-title">Caste Certificate</h1>
+                                            <p class="card-text">Basic Requirements and how to apply</p>
+                                            <a href="cast.html" class="btn custom-btn mt-3">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                                    class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <!-- Birth Certificate -->
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
+                            <div class="card custom-card shadow-lg">
+                                <div class="row no-gutters">
+                                    <div class="col-6 col-sm-12 figure">
+                                        <img src="photos\birth-certificate.jpg" alt="Aadhaar" class="figure-img img-fluid rounded card-img-top h-100 w-100">
+                                    </div>
+                                    <div class="col-6 col-sm-12">
+                                        <div class="card-body text-center">
+                                            <h1 class="card-title">Birth Certificate</h1>
+                                            <p class="card-text">Basic Requirements and how to apply</p>
+                                            <a href="b-certificate.html" class="btn custom-btn mt-3">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                                    class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <!-- Marriage Certificate -->
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
+                            <div class="card custom-card shadow-lg">
+                                <div class="row no-gutters">
+                                    <div class="col-6 col-sm-12 figure">
+                                        <img src="photos\marage animation.jpeg" alt="PAN" class="figure-img img-fluid rounded card-img-top h-100 w-100">
+                                    </div>
+                                    <div class="col-6 col-sm-12">
+                                        <div class="card-body text-center">
+                                            <h1 class="card-title">Marriage Certificate</h1>
+                                            <p class="card-text">Basic Requirements and how to apply</p>
+                                            <a href="mrg.html" class="btn custom-btn mt-3">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                                    class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <!-- Educational Certificates -->
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
+                            <div class="card custom-card shadow-lg">
+                                <div class="row no-gutters">
+                                    <div class="col-6 col-sm-12 figure">
+                                        <img src="photos\education.jpg" alt="Passport" class="figure-img img-fluid rounded card-img-top h-100 w-100">
+                                    </div>
+                                    <div class="col-6 col-sm-12">
+                                        <div class="card-body text-center">
+                                            <h1 class="card-title">Educational Certificates</h1>
+                                            <p class="card-text">Basic Requirements and how to apply</p>
+                                            <a href="EducationalCertificates.html" class="btn custom-btn mt-3">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                                    class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <!-- Medical Certificate -->
+        
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
+                            <div class="card custom-card shadow-lg">
+                                <div class="row no-gutters">
+                                    <div class="col-6 col-sm-12 figure">
+                                        <img src="photos\medical ani.webp" alt="Voter ID" class="figure-img img-fluid rounded card-img-top h-100 w-100">
+                                    </div>
+                                    <div class="col-6 col-sm-12">
+                                        <div class="card-body text-center h-100">
+                                            <h1 class="card-title">Medical Certificate</h1>
+                                            <p class="card-text">Basic Requirements and how to apply</p>
+                                            <a href="medical.html" class="btn custom-btn mt-3">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                                    class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <!-- Land Ownership Certificate -->
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
+                            <div class="card custom-card shadow-lg">
+                                <div class="row no-gutters">
+                                    <div class="col-6 col-sm-12 figure">
+                                        <img src="photos\land-registration.jpg" alt="Aadhaar" class="figure-img img-fluid rounded card-img-top h-100 w-100">
+                                    </div>
+                                    <div class="col-6 col-sm-12">
+                                        <div class="card-body text-center">
+                                            <h1 class="card-title">Land Ownership Certificate</h1>
+                                            <p class="card-text">Basic Requirements and how to apply</p>
+                                            <a href="owner.html" class="btn custom-btn mt-3">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                                    class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <!--Senior Citizen ID -->
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
+                            <div class="card custom-card shadow-lg">
+                                <div class="row no-gutters">
+                                    <div class="col-6 col-sm-12 figure">
+                                        <img src="photos\Senior Citizen Animation.png" alt="PAN" class="figure-img img-fluid rounded card-img-top h-100 w-100">
+                                    </div>
+                                    <div class="col-6 col-sm-12">
+                                        <div class="card-body text-center">
+                                            <h1 class="card-title">Senior Citizen ID</h1>
+                                            <p class="card-text">Basic Requirements and how to apply</p>
+                                            <a href="seniorcitizan.html" class="btn custom-btn mt-3">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                                    class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <!-- Visa -->
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
+                            <div class="card custom-card shadow-lg">
+                                <div class="row no-gutters">
+                                    <div class="col-6 col-sm-12 figure">
+                                        <img src="photos\visa animation.jpg" alt="Passport" class="figure-img img-fluid rounded card-img-top h-100 w-100">
+                                    </div>
+                                    <div class="col-6 col-sm-12">
+                                        <div class="card-body text-center">
+                                            <h1 class="card-title">Visa</h1>
+                                            <p class="card-text">Basic Requirements and how to apply</p>
+                                            <a href="visa.html" class="btn custom-btn mt-3">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                                    class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <!-- Bank Passbook -->
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
+                            <div class="card custom-card shadow-lg">
+                                <div class="row no-gutters">
+                                    <div class="col-6 col-sm-12 figure">
+                                        <img src="photos\passbook animation.webp" alt="Voter ID" class="figure-img img-fluid rounded card-img-top h-100 w-100">
+                                    </div>
+                                    <div class="col-6 col-sm-12">
+                                        <div class="card-body text-center h-100">
+                                            <h1 class="card-title">Bank Passbook</h1>
+                                            <p class="card-text">Basic Requirements and how to apply</p>
+                                            <a href="paabook.html" class="btn custom-btn mt-3">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                                    class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+        
+                        <!-- Death Certificate -->
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
+                            <div class="card custom-card shadow-lg">
+                                <div class="row no-gutters">
+                                    <div class="col-6 col-sm-12 figure">
+                                        <img src="photos\dead certificate.jpeg" alt="Voter ID" class="figure-img img-fluid rounded card-img-top h-100 w-100">
+                                    </div>
+                                    <div class="col-6 col-sm-12">
+                                        <div class="card-body text-center">
+                                            <h1 class="card-title">Death Certificate</h1>
+                                            <p class="card-text">Basic Requirements and how to apply</p>
+                                            <a href="dead.html" class="btn custom-btn mt-3">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                                    class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Contect-->
+                        <div class="col-12 mt-4" id="contact" >
+                            <header class="contact-header">
+                                <h1>Contact Us</h1>
+                                <p>We're here to assist you. Reach out with any questions or feedback you may have.</p>
+                            </header>
+                         <br> <br> <br>
+                            <div class="container comtact-body  ">
+                                <div class="contact-form">
+                                    <h2>Get in Touch</h2>
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="name">Name</label>
+                                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email">Email address</label>
+                                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="message">Message</label>
+                                            <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                                        </div>
+                                        <button type="submit">Send Message</button>
+                                    </form>
+                                </div>
+                                
+                                <div class="contact-info mt-5" id="port">
+                                    <h3>Our Contact Information</h3>
+                                    <p><strong>Address:</strong> Krishnagiri, TamilNadu, India, PinCode-635203</p>
+                                    <p><strong>Phone:</strong> <a href="tel:+1234567890">+91 6380201679</a></p>
+                                    <p><strong>Email:</strong> <a href="mailto:info@docportal.com">kathiravankumar1507@gmail.com</a></p>
+                                    <p><strong>Follow Us:</strong></p>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex justify-content-center">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                                              </svg> &nbsp; &nbsp; 
+                                              <a href="https://www.instagram.com/k_kathiravan_sachin?igsh=MWdpdDFtbnpqc211aA==" target="_blank">Instagram</a>
+                                        </div>
+                                        |
+                                        <div class="d-flex justify-content-center">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                              </svg>&nbsp; &nbsp; 
+                                              <a href="https://www.facebook.com/sachin.k.73550794?mibextid=ZbWKwL" target="_blank">Facebook</a>
+                                        </div>
+                                        |
+                                        <div class="d-flex justify-content-center">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                                              </svg> &nbsp; &nbsp; 
+                                              <a href="https://x.com/kathiravan1507?t=pHt-Pg9YuefS1hsD-rMDyg&s=08 " target="_blank">Twitter</a>
+                                        </div>
+                                         
+                                         
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    
+    
+</body>
+</html>
